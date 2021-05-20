@@ -7,7 +7,6 @@ module.exports = {
     description: 'Obtain restaurant suggestions for a given location and some other parameters',
     license: { name: 'MIT', url: 'https://opensource.org/licenses/MIT' },
   },
-  host: process.env.NODE_ENV !== 'production' ? 'localhost:3000' : 'best-restaurant-api.herokuapp.com',
   basePath: '/',
   tags: [],
   schemes: ['http'],
