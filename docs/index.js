@@ -7,9 +7,6 @@ module.exports = {
     description: 'Obtain restaurant suggestions for a given location and some other parameters',
     license: { name: 'MIT', url: 'https://opensource.org/licenses/MIT' },
   },
-  basePath: '/',
-  tags: [],
-  schemes: ['http'],
   consumes: ['application/json'],
   produces: ['application/json'],
   paths: {
