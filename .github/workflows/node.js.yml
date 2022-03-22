@@ -8,6 +8,8 @@ on:
     branches: [ master ]
   pull_request:
     branches: [ master ]
+env:
+  JWT_SUPER_SECRET: $JWT_SUPER_SECRET
 
 jobs:
   build:
