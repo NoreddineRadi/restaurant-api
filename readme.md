@@ -1,5 +1,5 @@
 # Restaurant API
-
+ Get restaurant 
 ## Project setup
 ```
 yarn install
